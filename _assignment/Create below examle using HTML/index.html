@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create below examle using HTML .</title>
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        table{
+            width: 100%;
+            height: auto;  
+        }
+        td{
+            width: 16.67%;
+    
+            text-align: center;
+        }
+      
+
+        img{
+            width: 100%;
+            height: auto;
+        }
+
+        #page{
+            background-color: palevioletred;
+            height: 60px;
+           font-size: 30px;
+           text-align: center;
+        }
+
+        #contact{
+            width: 100%;
+            height: 300px;
+        background-image:url(sp.jpg);
+        font-size:80px;
+        text-align: center;
+        color: white;
+        }
+
+        .tab{
+            height: 50px;
+            background-color: #999999;
+            font-size: 20px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <table border="2">
+        <tr>
+            <td rowspan="2"><a href="#">HOME</a></td>
+            <td rowspan="2"> <a href="#">ABOUT</a></td>
+            <td rowspan="2 "><a href="#">CONTACT</a></td>
+            <td rowspan="2"><a href="#">HELP</a></td>
+            <td rowspan="2"><a href="#">STORE</a></td>
+            <td><a href="#">DOWLOAD</a></td>
+        </tr>
+
+        <tr>
+            <td><a href="#">APPS</a></td>
+        </tr>
+
+        <tr>
+            <td colspan="6" ><img src="img.jpg" alt="Wooden Door"></td>
+        </tr>
+
+        <tr>
+            <td colspan="6" id="page">contact us page</td>
+        </tr>
+
+        <tr id="contact">
+            <td colspan="6" >CONTACT US</td>
+        </tr>
+
+        <tr class="tab">
+            <td colspan="3"><label for="FirstName">First-Name :</label>
+            <input type="text" name="FirstName" placeholder="Enter FirstName"></td>
+
+            <td colspan="3"><label for="LastName">Last-Name :</label>
+                <input type="text" name="LastName" placeholder="Enter LastName"></td>
+                
+            
+        </tr>
+
+        <tr class="tab">
+            <td colspan="3"><label for="Email-Id">Email-Id</label>
+            <input type="email" name="Email-Id" placeholder="Enter Email-Id"></td>
+            
+            <td colspan="3"><label for="Phone">Phone:</label>
+            <input type="tel" placeholder="Enter Your Number"></td>
+        </tr>
+
+        <tr class="tab">
+            <td colspan="3"> <label for="City">City :</label>
+            <select name="City" id="City" >
+                <option value="">India</option>
+                <option value="">Dubai</option>
+                <option value="">America</option>
+            </select></td>
+            <td colspan="3"> <label for="Gender">Gender : </label>
+            <input type="radio" name="Gender">Man 
+            <input type="radio" name="Gender">Female
+            <input type="radio" name="Gender">Other</td>
+        </tr>
+
+        <tr >
+            <td colspan="3 "><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14687.451883097572!2d72.508882!3d23.028803!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e9b767b0a48ed%3A0x713f82e619ac7868!2sTOPS%20Technologies%20-%20Best%20IT%20Training%20Institute%20in%20Ahmedabad!5e0!3m2!1sen!2sin!4v1729690627083!5m2!1sen!2sin" width="660" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></td>
+            <td colspan="3"><iframe width="660" height="350" src="https://www.youtube.com/embed/kBk3RvQKvPo?si=DQGfrglCBNCqzug7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+        </tr>
+
+       
+
+        
+        
+    </table>
+    
+</body>
+</html>
